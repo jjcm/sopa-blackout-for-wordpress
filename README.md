@@ -1,23 +1,20 @@
-# SOPA Blackout for WordPress #
+# Net Neutrality Slow Day for WordPress #
 
-* Contributors: sgerrand
-* Donate link: http://sasha.gerrand.id.au/donate
-* Tags: sopa, sopa blackout, protectip, censorship
 * Requires at least: 2.8
 * Tested up to: 3.2.1
 * Stable tag: 1.0.1
 
-Show your support for SOPA Blackout Day.
+A fork of sgerrand's SOPA wordpress plugin
 
 ## Description ##
 
-The SOPA Blackout for WordPress plugin allows you to easily show your support on SOPA Blackout Day on your blog.
+The Net Neutrality Slow Day for WordPress plugin allows you to easily show your support on Net Neutrality Slow Day on your blog.
 
-Check out the [SOPA Blackout website](http://sopablackout.org).
+Check out the [Net Neutrality Slow Day JS Utility website](http://netneutralityslowday.com).
 
 Full list of features:
 
-* Inserts the SOPA Blackout JavaScript file to your blog on SOPA Blackout day.
+* Inserts the Net Neutrality Slow Day file to your blog, which fires itself on September 10th
 
 That's it.
 
@@ -25,24 +22,6 @@ That's it.
 
 This section describes how to install the plugin and get it working.
 
-1. Upload the `wp-sopablackout` folder to the `/wp-content/plugins/` directory
+1. Upload the `wp-netneutralityslowday` folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
-## Frequently Asked Questions ##
-
-### What is SOPA Blackout Day? ###
-
-More information on this event is available on the [Reddit website][r_url].
-
-  [r_url]: http://blog.reddit.com/2012/01/stopped-they-must-be-on-this-all.html
-
-## Changelog ##
-
-### 1.0.1 ###
-
-* Updated to use the date and timezone configured on the WordPress install for determining the current date.
-* Renamed main plugin class name.
-
-### 1.0.0 ###
-
-* Initial release.
